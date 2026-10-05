@@ -31,7 +31,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Routes
-app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api', require('./routes/authRoutes'));
 app.use('/api/notes', require('./routes/noteRoutes'));
 app.use('/api/ai-results', require('./routes/aiResultRoutes'));
 

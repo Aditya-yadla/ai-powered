@@ -7,6 +7,20 @@
       "email": "persistuser@example.com",
       "password": "$2a$10$FClnC55Lrq3.jt5MsS7zX.QZGv7Wk.NWYijlBtgYUc9KaFmtlUuAW",
       "createdAt": "2026-10-03T05:14:19.235Z"
+    },
+    {
+      "_id": "user_1791183514083",
+      "name": "aditya",
+      "email": "aditya@gmail.com",
+      "password": "$2a$10$KipxgSO1HEnxqJwArxD.Ouir.EWnzeS7QovTwN5YJAzwf/E8Xw9Qy",
+      "createdAt": "2026-10-05T06:58:34.083Z"
+    },
+    {
+      "_id": "user_1791191870033",
+      "name": "hii",
+      "email": "hii@gmail.com",
+      "password": "$2a$10$HFpbnhRBMtx5/3V1DfWDA.oUY0ZAWKxDm2v6sl0345HJ3z0s2kRbO",
+      "createdAt": "2026-10-05T09:17:50.033Z"
     }
   ],
   "notes": [
@@ -23,6 +37,108 @@
       ],
       "createdAt": "2026-10-03T05:14:19.303Z",
       "updatedAt": "2026-10-03T05:14:19.303Z"
+    },
+    {
+      "_id": "note_seed_1",
+      "user": "user_1791183514083",
+      "title": "Data Structures: Binary Search Trees (BST)",
+      "subject": "Computer Science",
+      "topic": "Algorithms & Data Structures",
+      "content": "A Binary Search Tree is a node-based binary tree data structure which has the following properties: The left subtree of a node contains only nodes with keys lesser than the node key. The right subtree of a node contains only nodes with keys greater than the node key. Time complexity for search, insertion, and deletion is O(log n) on average and O(n) in worst case (unbalanced tree). Self-balancing BSTs like AVL trees and Red-Black trees guarantee O(log n) time operations.",
+      "keywords": [
+        "BST",
+        "Tree",
+        "Binary Search",
+        "Data Structures",
+        "Algorithms"
+      ],
+      "createdAt": "2026-10-03T06:58:34.205Z",
+      "updatedAt": "2026-10-03T06:58:34.205Z"
+    },
+    {
+      "_id": "note_seed_2",
+      "user": "user_1791183514083",
+      "title": "Thermodynamics First & Second Laws",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "content": "First Law of Thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another: Delta U = Q - W where U is internal energy, Q is heat added, W is work done by system. Second Law states that entropy of an isolated system always increases over time. Heat flows spontaneously from higher temperature to lower temperature. Clausius statement: No process is possible whose sole result is the transfer of heat from a cooler body to a hotter body.",
+      "keywords": [
+        "Entropy",
+        "Heat",
+        "Energy",
+        "Thermodynamics",
+        "Laws of Physics"
+      ],
+      "createdAt": "2026-10-04T06:58:34.205Z",
+      "updatedAt": "2026-10-04T06:58:34.205Z"
+    },
+    {
+      "_id": "note_seed_3",
+      "user": "user_1791183514083",
+      "title": "Database Normalization: 1NF to 3NF",
+      "subject": "Computer Science",
+      "topic": "Database Management Systems",
+      "content": "Database normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity. 1NF (First Normal Form) requires atomic values and unique row identification. 2NF requires 1NF and no partial dependencies (non-key attributes depend on whole primary key). 3NF requires 2NF and no transitive dependencies (non-key attributes depend only on primary key, not on other non-key attributes). BCNF (Boyce-Codd Normal Form) is a stricter version of 3NF.",
+      "keywords": [
+        "Database",
+        "Normalization",
+        "3NF",
+        "SQL",
+        "DBMS"
+      ],
+      "createdAt": "2026-10-05T06:58:34.205Z",
+      "updatedAt": "2026-10-05T06:58:34.205Z"
+    },
+    {
+      "_id": "note_seed_1",
+      "user": "user_1791191870033",
+      "title": "Data Structures: Binary Search Trees (BST)",
+      "subject": "Computer Science",
+      "topic": "Algorithms & Data Structures",
+      "content": "A Binary Search Tree is a node-based binary tree data structure which has the following properties: The left subtree of a node contains only nodes with keys lesser than the node key. The right subtree of a node contains only nodes with keys greater than the node key. Time complexity for search, insertion, and deletion is O(log n) on average and O(n) in worst case (unbalanced tree). Self-balancing BSTs like AVL trees and Red-Black trees guarantee O(log n) time operations.",
+      "keywords": [
+        "BST",
+        "Tree",
+        "Binary Search",
+        "Data Structures",
+        "Algorithms"
+      ],
+      "createdAt": "2026-10-03T09:17:50.230Z",
+      "updatedAt": "2026-10-03T09:17:50.230Z"
+    },
+    {
+      "_id": "note_seed_2",
+      "user": "user_1791191870033",
+      "title": "Thermodynamics First & Second Laws",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "content": "First Law of Thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another: Delta U = Q - W where U is internal energy, Q is heat added, W is work done by system. Second Law states that entropy of an isolated system always increases over time. Heat flows spontaneously from higher temperature to lower temperature. Clausius statement: No process is possible whose sole result is the transfer of heat from a cooler body to a hotter body.",
+      "keywords": [
+        "Entropy",
+        "Heat",
+        "Energy",
+        "Thermodynamics",
+        "Laws of Physics"
+      ],
+      "createdAt": "2026-10-04T09:17:50.230Z",
+      "updatedAt": "2026-10-04T09:17:50.230Z"
+    },
+    {
+      "_id": "note_seed_3",
+      "user": "user_1791191870033",
+      "title": "Database Normalization: 1NF to 3NF",
+      "subject": "Computer Science",
+      "topic": "Database Management Systems",
+      "content": "Database normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity. 1NF (First Normal Form) requires atomic values and unique row identification. 2NF requires 1NF and no partial dependencies (non-key attributes depend on whole primary key). 3NF requires 2NF and no transitive dependencies (non-key attributes depend only on primary key, not on other non-key attributes). BCNF (Boyce-Codd Normal Form) is a stricter version of 3NF.",
+      "keywords": [
+        "Database",
+        "Normalization",
+        "3NF",
+        "SQL",
+        "DBMS"
+      ],
+      "createdAt": "2026-10-05T09:17:50.230Z",
+      "updatedAt": "2026-10-05T09:17:50.230Z"
     }
   ],
   "aiResults": []
