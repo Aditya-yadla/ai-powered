@@ -1,0 +1,29 @@
+{
+  "isFallback": true,
+  "users": [
+    {
+      "_id": "user_1791004459235",
+      "name": "Persistence User",
+      "email": "persistuser@example.com",
+      "password": "$2a$10$FClnC55Lrq3.jt5MsS7zX.QZGv7Wk.NWYijlBtgYUc9KaFmtlUuAW",
+      "createdAt": "2026-10-03T05:14:19.235Z"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "note_1791004459303",
+      "user": "user_1791004459235",
+      "title": "Persistence Test",
+      "subject": "Physics",
+      "topic": "Forces",
+      "content": "Force is mass times acceleration. An object remains at rest unless acted upon by a net force.",
+      "keywords": [
+        "force",
+        "motion"
+      ],
+      "createdAt": "2026-10-03T05:14:19.303Z",
+      "updatedAt": "2026-10-03T05:14:19.303Z"
+    }
+  ],
+  "aiResults": []
+}
